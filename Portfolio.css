@@ -1,0 +1,11 @@
+body{ background-image: url(https://images.unsplash.com/photo-1548063032-ce4d0e5aab66?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80); 
+}
+ 
+ h1,h2{ color: orange; 
+
+ }
+
+ .slide-fwd-top {
+	-webkit-animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
